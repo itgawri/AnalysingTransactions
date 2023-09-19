@@ -86,7 +86,7 @@ def odwroc_liczbe_ujemna(liczba_ujemna):
   liczba_dodatnia = liczba_ujemna * -1
   return liczba_dodatnia
 
-wyplaty =  [odwroc_liczbe_ujemna(wyplata) for wyplata in wyplaty]
+wyplaty = [odwroc_liczbe_ujemna(wyplata) for wyplata in wyplaty]
 print("Wypłaty (wartości dodatnie):")
 print(wyplaty)
 
@@ -94,14 +94,14 @@ najwieksze_wyplaty = wyplaty[:5]
 print("Największe wypłaty:")
 print(najwieksze_wyplaty)
 
-srednia_wpłata = sum(wplaty) / len(wplaty)
-srednia_wyplata =  sum(wyplaty) / len(wyplaty)
+srednia_wplata = sum(wplaty) / len(wplaty)
+srednia_wyplata = sum(wyplaty) / len(wyplaty)
 
-srednia_wpłata = int(srednia_wpłata)
+srednia_wplata = int(srednia_wplata)
 srednia_wyplata = int(srednia_wyplata)
 
 print("Średnia wpłata (całkowita):")
-print(srednia_wpłata)
+print(srednia_wplata)
 print("Średnia wypłata (całkowita):")
 print(srednia_wyplata)
 
